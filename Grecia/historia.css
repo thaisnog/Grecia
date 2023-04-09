@@ -1,0 +1,57 @@
+body{
+    background-color: white;
+}
+.meu-video{
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: -100;
+    background-size: cover;
+    opacity: 0.60;
+}
+nav ul, nav li { 
+    list-style-type: none; 
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+nav ul { 
+    display:flex;
+    text-align: center;
+    justify-content: center;
+    font-weight: bold;
+}
+nav a { 
+    display:block; 
+    text-decoration: none; 
+    padding:15px;
+    color: black;
+    font-family: Arial;
+    text-align: center;
+}
+nav .active a, nav a:hover { 
+    background-color: white; 
+    color: black; 
+    text-align: center;
+}
+.TituloPr{
+    color: black;
+    text-align: center;
+}
+.band{
+    display: flex; 
+    justify-content: center;
+}
+p, ul{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: large;
+    color: black;
+}
+.para, .foto{
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+}

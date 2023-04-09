@@ -1,0 +1,71 @@
+body{
+     background-color: white;
+}
+.bg_video{
+	position: fixed; 
+	right: 0; 
+	bottom: 0;
+	min-width: 100%; 
+	min-height: 100%;
+	width: auto; 
+	height: auto; 
+	z-index: -1000;
+	background-size: cover;
+    opacity: 0.60; /* Adicionei apenas essa linha. É a visibilidade */
+}
+nav ul, nav li { 
+    list-style-type: none; 
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    
+}
+nav ul { 
+    display:flex;
+    text-align: center;
+    justify-content: center;
+    font-weight: bold;
+}
+nav a { 
+    display:block; 
+    text-decoration: none; 
+    padding:15px;
+    color: black;
+    font-family: Arial;
+    text-align: center;
+}
+nav .active a, nav a:hover { 
+    background-color: white; 
+    color: black; 
+    text-align: center;
+}
+.titulo{
+    text-align: center;
+}
+p{
+    font-size: large;
+    color: black;
+}
+.mapa{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    text-align: center;
+}
+
+.map {
+    width: 550px;
+}
+
+.span{
+    display: flex;
+    flex-direction: column;
+    margin-left: 16px;
+}
+
+.span p {
+    border: 1px solid black;
+    width: 750px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: large;
+}
